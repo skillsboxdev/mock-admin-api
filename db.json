@@ -1,9 +1,25 @@
 {
-  "atc": 
+  "atc": [
     {
       "id": 1,
-      "title": "Demo Centre",
-      "admin" : [],
-      "testers": []
-    } 
+      "organisation": "Demo Centre 1",
+      "email" : "foo@test.com",
+      "admin" : [{"firstName": "john", "lastName" : "R", "id": 100} ],
+      "testers": [{"firstName": "john", "lastName" : "R", "id": 100},{"firstName": "john", "lastName" : "R", "id": 100},{"firstName": "john", "lastName" : "R", "id": 100}]
+    } ,
+       {
+      "id": 2,
+      "organisation": "Demo Centre 2",
+      "email" : "foo@test.com",
+      "admin" : [{"firstName": "john", "lastName" : "R", "id": 100} ],
+      "testers": [{"firstName": "john", "lastName" : "R", "id": 100},{"firstName": "john", "lastName" : "R", "id": 100},{"firstName": "john", "lastName" : "R", "id": 100}]
+    } ,
+       {
+      "id": 3,
+      "organisation": "Demo Centre 3",
+      "email" : "foo@test.com",
+      "admin" : [{"firstName": "john", "lastName" : "R", "id": 100} ],
+      "testers": [{"firstName": "john", "lastName" : "R", "id": 100},{"firstName": "john", "lastName" : "R", "id": 100},{"firstName": "john", "lastName" : "R", "id": 100}]
+    } ]
+  
 }
